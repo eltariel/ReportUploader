@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SsrsSoap", "SsrsSoap\SsrsSoap.csproj", "{C1731564-19E3-4EE4-8B12-CB27AD883278}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportUploader", "ReportUploader\ReportUploader.csproj", "{C1731564-19E3-4EE4-8B12-CB27AD883278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportUploader.Gui", "ReportUploader.Gui\ReportUploader.Gui.csproj", "{39C53F9E-B0F1-40A2-BE71-564B44E5C670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C1731564-19E3-4EE4-8B12-CB27AD883278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1731564-19E3-4EE4-8B12-CB27AD883278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1731564-19E3-4EE4-8B12-CB27AD883278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C53F9E-B0F1-40A2-BE71-564B44E5C670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C53F9E-B0F1-40A2-BE71-564B44E5C670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C53F9E-B0F1-40A2-BE71-564B44E5C670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C53F9E-B0F1-40A2-BE71-564B44E5C670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
