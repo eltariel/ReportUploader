@@ -64,8 +64,12 @@ namespace ReportUploader
         {
             var name = Path.GetFileNameWithoutExtension(rdlFile);
             var reportContents = File.ReadAllBytes(rdlFile);
+
+            if (!targetFolder.StartsWith("/"))
+            {
+                folder = "/" + folder;
+            }
             
-            //create report
             var warnings = rs.CreateReport(name, folder, true, reportContents, null);
 
             if (warnings != null)
